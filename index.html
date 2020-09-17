@@ -4,13 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-
     <title>Samsung</title>
     <meta name="description" content="Publimetro Samsung landing">
     <meta name="author" content="Iniciativa">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/styles.css?v=1.0">
 
 </head>
@@ -19,317 +18,140 @@
     <main>
         <!--opening-->
 
-        <section class="hero">
+        <section class="hero" id="hero">
+            <canvas id="pixie"></canvas>
             <div class="hero__inner">
-                <div class="hero__col">
-                    <h1 class="hero__title ml9">
-                        <span class="text-wrapper">
-                            <span class="letters">
-                                <span class="letter">¡Ventajas</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">de</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">poder</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">disfrutar</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">el</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">universo</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">Google</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">en</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">tu</span>
-                                <span class="letter">&nbsp;</span>
-                                <span class="letter">smartphone!</span>
+                <div class="hero__content" data-enllax-ratio=".2" data-enllax-type="foreground"
+                    data-enllax-direction="vertical">
+                    <h1 class="hero__title animate__animated animate__bounceInDown">¡Trazando la historia del diseño del
+                        Bisel <span>en los televisores Samsung!</span></h1>
 
-                            </span>
+                    <span
+                        class="scroll-icon animate__animated animate__bounce animate__infinite animate__slow	2s infinite">
+                        Scroll
+                    </span>
 
-                    </h1>
-                    <p class="hero__lead animate__animated animate__fadeIn animate__delay-1s">Pásate a Galaxy</p>
-                    <div class="hero__items animate__animated animate__fadeIn animate__delay-1s lax" data-lax-preset="zoomOut">
-                        <ul>
-                            <li class="animate__animated animate__bounce">
-                                <img src="dist/images/login.svg" alt="Imagen login">
-                                <p>Login con tu Cuenta Google</p>
-                            </li>
-                            <li class="animate__animated animate__bounce">
-                                <img src="dist/images/seguridad.svg" alt="seguridad imagen">
-                                <p>Doble seguridad</p>
-                            </li>
-                            <li class="animate__animated animate__bounce">
-                                <img src="dist/images/transferencia.svg" alt="imagen transferencia">
-                                <p>Transferencia fácil de archivos</p>
-                            </li>
-                            <li class="animate__animated animate__bounce">
-                                <img src="dist/images/actualizacion.svg" alt="imagen actualización">
-                                <p>Sistema y apps siempre actualizadas</p>
-                            </li>
-                            <li class="animate__animated animate__bounce">
-                                <img src="dist/images/apps.svg" alt="Imagen apps">
-                                <p>+de 2,9 millones de apps para bajar</p>
-                            </li>
-                        </ul>
+                    <div class="hero__logo animate__animated animate__bounceInUp">
+                        <img src="dist/images/50years-logo.png" alt="50 years Innovation logo">
                     </div>
                 </div>
-                <div class="hero__col">
-                    <div class="floating" data-lax-preset="zoomIn blurIn">
-                        <img src="dist/images/main-device.png" alt="Imagen móvil" class="lax"
-                            data-lax-translate-y_small="0 0px, 500 140px" data-lax-translate-y_large="0 0, 500 200px">
-                    </div>
 
-                </div>
+                <div class="floating-light" data-enllax-ratio="-0.4" data-enllax-direction="vertical"><img
+                        src="dist/images/light1.png"></div>
+                <div class="floating-light2" data-enllax-ratio="-0.8" data-enllax-direction="vertical"><img
+                        src="dist/images/light2.png"></div>
+            </div>
+
+        </section>
+
+
+        <section class="section section--centered">
+            <div class="section__inner">
+                <img src="dist/images/img-section1.png" data-enllax-ratio=".1" data-enllax-direction="vertical"
+                    data-enllax-type="foreground">
+                <h2 data-aos="fade-up" data-aos-duration="2000">¡Acompáñanos en un recorrido a través de la innovación en
+                    diseño y estilo!</h2>
             </div>
         </section>
-        <div id="scene1"></div>
 
+        <section class="section backgroundOne">
 
-        <!--section covid-->
-        <section class="section section-neutro">
-            <div class="section__inner">
-                <div class="section__row lax" data-lax-preset="blurIn driftRight" data-lax-target="self">
-                    <div class="section__col text--center">
-                        <p>La situación provocada por la <strong>Covid-19</strong>, ha hecho que nuestro estilo de vida
-                            se modificara. El impacto que ha dejado la pandemia en distintos sectores nos ha hecho
-                            cambiar de manera
-                            radical nuestros hábitos de consumo y hasta innovar en términos de socialización.</p>
+            <div class="section__inner section__inner-tight">
+                <div class="section__content" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="year"><span>año</span>2006</div>
 
-                    </div>
+                    <h2 class="section__title"> El televisor LCD de Burdeos</h2>
+                    <p>El lujoso bisel de alto brillo de este televisor tenía <strong>54 mm</strong> de ancho.</p>
+
+                    <img src="dist/images/img-section2.png">
                 </div>
-                <div class="section__row lax">
+
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__inner section__inner-tight">
+                <div class="section__content--cols">
+                    <div class="section__col" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="year black-border"><span>año</span>2008</div>
+
+                        <h2 class="section__title"> El televisor LCD Crystal Rose</h2>
+                        <p>El bisel se redujo a <strong>45 mm</strong> gracias a la innovadora tecnología de doble inyección que proporcionaba una sensación tridimensional a la pantalla, como la de un cristal.</p>
+                    </div>
+
                     <div class="section__col">
-                        <img src="dist/images/mujer.png" alt="imagen mujer escribiendo" class="m-40-mobile lax"
-                           data-lax-preset="driftRight zoomOut" data-lax-target="self">
-                    </div>
-                    <div class="section__col lax" data-lax-preset="blurIn driftRight" data-lax-target="self">
-                        <p>En todo esto la tecnología ha jugado un papel importante a la hora de ser el aliado para
-                            intentar superar la mayoría de esos retos; particularmente los smartphones.</p>
-
-                        <p>Y es que esta nueva realidad a la que nos ha llevado la <strong>Covid-19</strong>, ha hecho
-                            que la tecnología
-                            móvil se convierta en una herramienta vital para mantenernos productivos, conectados e
-                            informados.</p>
-
-                        <p>En los últimos meses hemos visto cómo la presencia de <strong>Google</strong> a nivel mundial
-                            se ha vuelto más
-                            importante que nunca y <strong>Samsung</strong> es el único fabricante en el mundo con una
-                            tienda propia que
-                            puede presumir</p>
+                        <img src="dist/images/img-section3a.png" data-aos="fade-left"
+                        data-aos-duration="2000">
                     </div>
                 </div>
 
+                <div class="section__content--cols">
+                    <div class="section__col" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="year black-border year-2010"><span>año</span>2010</div>
+
+                        <h2 class="section__title"> TV LED 3D Inteligente</h2>
+                        <p>El material del bisel se reemplazó con metal y su grosor se 
+                            redujo a <strong>28 mm</strong>.</p>
+                    </div>
+
+                    <div class="section__col">
+                        <img src="dist/images/img-section3b.png" data-aos="fade-left"
+                        data-aos-duration="2000">
+                    </div>
+                </div>
             </div>
+
         </section>
 
-        <!--section downloads-->
+        <section class="section backgroundTwo">
+            <div class="section__row" >
+                <div class="section__col"data-aos="fade-right" data-aos-duration="2000"
+                data-aos-anchor-placement="top-center" >
+                    <div class="year"><span>año</span>2014</div>
 
-        <section class="section section-grey lax" data-lax-preset="blurIn" data-lax-target="self">
-            <div class="section__inner">
-                <div class="section__row">
+                    <h2 class="section__title"> TV UHD Curvo</h2>
+                    <p>El diseño curvo del televisor y el bisel de <strong>10.5 mm</strong> de ancho 
+                        proporcionaron una experiencia visual envolvente.</p>
 
-                    <div class="section__col show-mobile suite-image">
-                        <img src="dist/images/suite.png" alt="G Suite" class="lax m-40-mobile"
-                        data-lax-translate-y_large="0 -100, 800 400" data-lax-translate-y_small="0 150, 800 -100" data-lax-scale="0 0.8, 100 1, 200 0.8 | loop=200 offset=100 speed=0.2" data-lax-target="self">
-                    </div>
-                    <div class="section__col text--right lax" data-lax-preset="driftLeft">
-                        <h2 class="h2">
-                            ¡Las descargas ya no serán un problema!</h2>
-                        <p>
-                            Gracias a las alertas de Google, puede saber si una aplicación es un malware o no segura
-                            para descargar en su Smartphone, lo cual genera un beneficio único en tu privacidad.
-                        </p>
-                        <p>De hecho, si no tuviera la seguridad y respaldo de Google, podría navegar sin protección en
-                            la red y esto ocasionaría que su seguridad estaría en riesgo.</p>
-                        <p>Todas las aplicaciones y servicios de Google, como Gmail, Google Maps, Google Calendar,
-                            Google Drive, Google Fotos, entre otros, están
-                            preinstalados y disponibles en los Galaxy, sin restricciones.</p>
+                    <img src="dist/images/img-section4a.png">
+                </div>
 
-                        <img src="dist/images/adroid-logo.png" alt="Logo Android" class="xl-right android-logo">
-                    </div>
+                <div class="section__col" data-aos="fade-left" data-aos-duration="2000"
+                data-aos-anchor-placement="top-center">
+                    <div class="year year-2017"><span>año</span>2017</div>
 
-                    <div class="section__col show-desktop lax" data-lax-preset="driftLeft" data-lax-translate-y="0 -180, 800 100" data-lax-scale="0 0.8, 100 1, 200 0.8 | loop=200 offset=100 speed=0.2" data-lax-target="self">
-                        <img src="dist/images/suite.png" alt="G Suite">
-                    </div>
+                    <h2 class="section__title"> TV QLED</h2>
+                    <p>Se adoptó un diseño sin bisel en los cuatro lados de la pantalla, con un ancho de bisel real reducido a solo <strong>12.5 mm</strong>.</p>
+
+                    <img src="dist/images/img-section4b.png">
                 </div>
             </div>
-            <div class="animated-device m-40-mobile lax"  data-lax-translate-y_small="0 -50, 800 200" data-lax-preset_large="driftRight"
-                data-lax-target="self">
-                <img src="dist/images/device2.png">
-            </div>
+
         </section>
 
-        <!--section slider-->
-        <section class="section lax" data-lax-preset="blurIn" data-lax-target="self">
+        <section class="section backgroundThree">
+            <div class="section__col"data-aos="fade-right" data-aos-duration="2000"
+                data-aos-anchor-placement="top-center" >
+                    <div class="year"><span>año</span>2014</div>
 
-            <div class="slider-container">
+                    <h2 class="section__title"> TV UHD Curvo</h2>
+                    <p>El diseño curvo del televisor y el bisel de <strong>10.5 mm</strong> de ancho 
+                        proporcionaron una experiencia visual envolvente.</p>
 
-                <div class="slider__wrapper">
-                    <h2 class="h2">Video llamadas a otro nivel</h2>
-                    <div class="section-slider">
-
-                        <div class="slider-item">
-                            <div class="slider-content">
-                                <p>Las reuniones laborales se han convertido en el día a día de todos y por eso que
-                                    Samsung se haya asociado con Google para llevar las videollamadas en alta definición
-                                    (FHD) a Google Duo es algo que lo hace sentir como si estuviera en frente de las
-                                    otras personas.</p>
-
-                                <p>Google Duo ofrece videoconferencias de alta calidad y velocidad.</p>
-
-                                <p>Este servicio también permite que hasta 12 personas se unan a una sola
-                                    videoconferencia.</p>
-                            </div>
-                        </div>
-                        <div class="slider-item">
-
-                            <div class="slider-content">
-                                <p>Las reuniones laborales se han convertido en el día a día de todos y por eso que
-                                    Samsung se haya asociado con Google para llevar las videollamadas en alta definición
-                                    (FHD) a Google Duo es algo que lo hace sentir como si estuviera en frente de las
-                                    otras personas.</p>
-
-                                <p>Google Duo ofrece videoconferencias de alta calidad y velocidad.</p>
-
-                                <p>Este servicio también permite que hasta 12 personas se unan a una sola
-                                    videoconferencia.</p>
-                            </div>
-                        </div>
-                        <div class="slider-item">
-
-                            <div class="slider-content">
-                                <p>Las reuniones laborales se han convertido en el día a día de todos y por eso que
-                                    Samsung se haya asociado con Google para llevar las videollamadas en alta definición
-                                    (FHD) a Google Duo es algo que lo hace sentir como si estuviera en frente de las
-                                    otras personas.</p>
-
-                                <p>Google Duo ofrece videoconferencias de alta calidad y velocidad.</p>
-
-                                <p>Este servicio también permite que hasta 12 personas se unan a una sola
-                                    videoconferencia.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="dist/images/img-section4a.png">
                 </div>
-
-
+            <div class="">
+                <img src="dist/images/img-ambiente.png">
             </div>
-            <div class="slider__lateral lax" data-lax-preset="linger driftLeft" data-lax-target="self">
-                <div class="slider__lateral__img">
-                    <img src="dist/images/video-icon.png" class="video-icon">
-                    <img src="dist/images/hombre.png" alt="Hombre con mobile Samnsung" class="slider-image">
-                </div>
 
-            </div>
-        </section>
-
-        <!--section centered-->
-        <section class="section section-padding--large">
-            <img src="dist/images/devices3.png" class="animated-device2 lax" data-lax-translate-y_small="0 0, (-elh) -100"
-            data-lax-preset_large="linger" data-lax-target="self">
-            <div class="section__inner lax" data-lax-preset="blurIn" data-lax-translate-y="(vh*0.7) -100, 0 50, -500 0" data-lax-target="self">
-
-                <div class="col-60 text--center">
-                    <h2 class="h2">Google y Microsoft</h2>
-                    <p>Para el estudio a distancia hay acceso inmediato a <strong>Microsoft Office</strong> y a su
-                        conjunto de
-                        aplicaciones que resultan de gran utilidad.</p>
-                    <p>La alianza de Samsung con Microsoft ofrece acceso a las herramientas que más se utilizan a
-                        diario, como escanear y firmar PDFs y/o convertir imágenes a una tabla de excel.
-                    </p>
-                    <p>Para mayor comodidad al momento de trabajar, la función Link to Windows y la aplicación
-                        complementaria Your Phone, le permitirá acceder a las fotos de la galería, mensajes,
-                        notificaciones y otras funciones del computador desde un dispositivo Galaxy.</p>
-                </div>
-
-            </div>
-            <img src="dist/images/devices4.png" class="animated-device3 lax" data-lax-translate-y_small="0 50, 300 100"
-                data-lax-preset_large="eager" data-lax-target="self">
-        </section>
-
-        <!--section black-->
-        <section class="section section-black lax"  data-lax-target="self">
-            <div class="section__inner lax" data-lax-preset="blurIn">
-                <h2 class="h2 text--center">¡Diversión al límite!</h2>
-                <div class="section__row">
-                    <div class="section__col text--right lax" data-lax-preset="driftRight">
-                        <p>Si de ver series o películas se trata, con los equipos Galaxy podrá descubrir el mejor
-                            contenido de Netflix de manera sencilla a través de Samsung Daily, Bixby y Finder.</p>
-
-                        <p>Y si lo suyo es escuchar música en sus tiempos libres o para relajarse,
-                            Spotify o YouTube Premium son sus mejores aliados.</p>
-
-                        <p>En el mundo Galaxy se pueden conseguir cuatro meses gratis de YouTube Premium y reproducir
-                            contenido incluso si la pantalla está apagada o se usa otra aplicación.</p>
-                        <p><a href="" class="btn-outline btn-white" title="Click para conocer más">Conoce más</a></p>
-                    </div>
-
-                    <div class="section__col lax m-40-mobile" data-lax-preset_small="eager driftRight" data-lax-preset_large="zoomOut driftRight">
-                        <img src="dist/images/mujer2.png">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section section-image ">
-            <div id="parallaxBG" class="image-container" style="height: 100vh;">
-                <div style="background: url(dist/images/image-bg.jpg); background-attachment: fixed; height: 100%; background-position: center top"
-                    class="lax" data-lax-preset="eager" data-lax-target="self">
-                </div>
         </section>
 
 
-        <section class="section section-large lax" data-lax-preset="blurIn" >
-            <div class="section__inner">
-
-                <div class="section__row">
-                    <div class="section__col lax" data-lax-preset="eager driftLeft">
-                        <img src="dist/images/video-img.png" class="m-40-mobile">
-                    </div>
-                    <div class="section__col lax" data-lax-preset="eager driftLeft">
-                        <h2 class="h2">¡Más beneficios a un toque!</h2>
-                        <p>La compañía surcoreana tiene una gran relación con otras marcas
-                            norteamericanas importantes como Microsoft o Epic Games. </p>
-
-                        <p>De hecho, la Galaxy Store fue una de las primeras tiendas donde sí se publicó Fortnite para
-                            Android, por lo que tener un Samsung es sinónimo de tener uno de los equipos más completos
-                            del mercado.</p>
-
-                        <p>Todos los smartphones Galaxy cuentan con un soporte continuo de
-                            actualizaciones hasta por cuatro años.</p>
-
-                        <p><a href="" class="btn-outline" title="Click para conocer más">Conoce más</a></p>
-
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section no-padding ">
-            <div class="section__inner section-pink">
-                <div class="section-row--stretch">
-                    <div class="section__col lax" data-lax-preset="zoomOut driftLeft" data-lax-target="self">
-                        <h2>¿Tu equipo no garantiza seguridad al descargar apps?</h2>
-                        <h3>Pásate a Galaxy</h3>
-                        <div class="section__logos">
-                            <img src="dist/images/logos.png">
-                        </div>
-                    </div>
-                    <div class="section__col lax" data-lax-preset_small="linger blurIn"
-                        data-lax-preset_large="eager blurIn" data-lax-target="self">
-                        <img src="dist/images/device-small.png">
-                    </div>
-                </div>
-            </div>
-        </section>
 
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="dist/js/jquery.enllax.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="dist/js/scripts.js"></script>
 </body>
 
